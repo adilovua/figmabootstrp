@@ -228,11 +228,11 @@ header{
 .services{
     display: flex;
     justify-content: center;
-    height: initial;
 }
 
 .services_container{
     margin-top: 94PX;
+    position:relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -245,6 +245,7 @@ header{
     justify-content: space-between;
     padding: 50px 44px 50px 44px;
     border-bottom: 3px solid #ffffff;
+    margin-bottom: 5px;
 }
 
 .service_container:hover{
@@ -330,15 +331,52 @@ header{
 
 /*Latest works, i.e. portfolio*/
 .portfolio{
+    position: relative;
     display: flex;
     justify-content: center;
 }
 
 .protfolio_wrap{
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     position: relative;
     max-width: 1185px;
     width: 100%
 }
 
+.nav-portfolio{
+    display: flex;
+}
+
+.menu-portfolio {
+    list-style: none;
+    margin: 40px 0 5px;
+    padding: 25px 0 5px;
+    text-align: center;
+    background: white;
+  }
+.menu-portfolio li {
+    display: inline-block;
+    margin-right: 40px;
+}
+.menu-portfolio li:last-of-type{
+    margin-right: 0px;
+}
+
+.menu-portfolio a {
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.832px;
+    color: #252525;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+}
+
+.menu-portfolio a:hover{
+    color: #000000; 
+    opacity: 0.7;   
+}
