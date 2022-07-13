@@ -23,11 +23,11 @@
     height: 2px;
     background-color: black;
 }
+
 .page_width{
     position: relative;
+    display: block;
     width: 1182px;
-    height: 559px;
-    align-self: flex-start;
     margin-bottom: 117px;
     justify-content: center;
 }
@@ -37,6 +37,7 @@ header{
     display: flex;
     justify-content: center;
 }
+
 .header_container{
     position: relative;
     display: flex;
@@ -227,6 +228,7 @@ header{
 
 .services{
     display: flex;
+    position: relative;
     justify-content: center;
 }
 
@@ -379,4 +381,33 @@ header{
 .menu-portfolio a:hover{
     color: #000000; 
     opacity: 0.7;   
+}
+
+.porfolio_card_span{
+    width: 455px;
+    height: 444px;
+    left: 0px;
+    top: 0px;
+    background: #F3F4F6;
+}
+
+.protfolio_card_half_upper{
+    position:relative;
+    top: -50%;
+}
+
+
+.portfolio_card_left_col_title{
+    position: absolute;
+    top: 371px;
+    left: 294px;
+    width: 208px;
+    height: 142px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 3.072px;
+    color: #252525;
 }
